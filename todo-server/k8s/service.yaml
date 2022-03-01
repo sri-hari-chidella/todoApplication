@@ -1,0 +1,15 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: todo-server
+  labels:
+    name: todo-server
+spec:
+  ports:
+    - nodePort: 30163
+      port: 8080
+      targetPort: 8080
+      protocol: TCP
+  selector:
+    app: todo-server
+  type: NodePort

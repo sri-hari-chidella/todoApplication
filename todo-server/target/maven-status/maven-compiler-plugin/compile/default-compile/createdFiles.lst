@@ -1,0 +1,10 @@
+com\example\toDo\model\Task.class
+com\example\toDo\ToDoApplication.class
+com\example\toDo\security\AppSecurityConfig.class
+com\example\toDo\model\Status.class
+com\example\toDo\repository\TaskRepository.class
+com\example\toDo\service\TaskServiceImpl.class
+com\example\toDo\service\TaskService.class
+com\example\toDo\controller\TaskController.class
+com\example\toDo\security\CORSFilter.class
+com\example\toDo\config\Configuration.class
