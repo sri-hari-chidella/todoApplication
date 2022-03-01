@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: todo-client
+spec:
+  selector:
+    matchLabels:
+      app: todo-client
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: todo-client
+    spec:
+      containers:
+        - name: todo-client
+          image: srihari3103/todoclient
+          ports:
+            - containerPort: 3000

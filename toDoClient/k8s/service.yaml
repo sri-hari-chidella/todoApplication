@@ -1,0 +1,15 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: todo-client
+  labels:
+    name: todo-client
+spec:
+  ports:
+    - nodePort: 30164
+      port: 3000
+      targetPort: 3000
+      protocol: TCP
+  selector:
+    app: todo-client
+  type: NodePort
