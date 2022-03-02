@@ -6,7 +6,7 @@
 
 Todo Web Application to store toDo items and everyday tasks and develop a habit of getting work done!
 
-Dockerized and pushed on Docker hub  
+Containarized and pushed on Docker hub  
 Docker container links :   
 Todo Server - https://hub.docker.com/repository/docker/srihari3103/todoserver   
 Todo UI - https://hub.docker.com/repository/docker/srihari3103/todoclient
