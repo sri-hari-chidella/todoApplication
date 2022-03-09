@@ -13,7 +13,7 @@ Todo UI - https://hub.docker.com/repository/docker/srihari3103/todoclient
 
 ---
 
-Build Instructions -  
+### Build Instructions -  
 ```
 docker pull srihari3103/todoserver
 docker pull srihari3103/todoclient
